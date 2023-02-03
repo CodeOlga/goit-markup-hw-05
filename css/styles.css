@@ -442,11 +442,12 @@ img {
     var(--modal-overlay-bg-cl)
   );
   opacity: 1;
-  transition: opacity var(--transition-duration) var(--timing-function);
+  transition: opacity var(--transition-duration) var(--timing-function),
+    visibility var(--transition-duration) var(--timing-function);
 }
 .backdrop.is-hidden {
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 .backdrop.is-hidden .modal {
