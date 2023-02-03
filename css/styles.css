@@ -180,15 +180,9 @@ img {
   height: 4px;
   left: 0;
   bottom: -1px;
-  opacity: 0;
 
   background-color: var(--pressed-state-bg-cl);
   border-radius: 2px;
-
-  transition: opacity var(--transition-duration) var(--timing-function);
-}
-.header-link:hover::after {
-  opacity: 1;
 }
 .header-contact {
   display: block;
