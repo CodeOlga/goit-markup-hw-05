@@ -451,6 +451,7 @@ img {
   transition: opacity var(--transition-duration) var(--timing-function);
 }
 .backdrop.is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
